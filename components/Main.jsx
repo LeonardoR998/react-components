@@ -1,16 +1,20 @@
-export default function () {
+export default function Main() {
   return (
-    <main>
-      <div className="container">
-        <div className="card">
-          <img src="" alt="" />
-          <div class="card-body">
-            <h5 className="card-title">Titolo del post</h5>
+    <main className="flex-grow-1">
+      <div className="container py-5">
+        <div className="card mx-auto">
+          <img
+            src="/src/assets/img/images.png"
+            className="card-img-top"
+            alt="Img"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Titolo del Post</h5>
             <p className="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque labore placeat nostrum atque. Quod dicta inventore
-              accusamus consequuntur itaque doloremque pariatur ad aut eos, fuga
-              alias nulla iste necessitatibus ipsam.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+              minima consequatur odit voluptate cupiditate nesciunt. Molestiae,
+              sequi ipsa? Sint enim officiis delectus porro corporis, eveniet
+              nesciunt sunt tempora impedit exercitationem!
             </p>
             <a href="#" className="btn btn-warning text-uppercase text-white">
               Leggi di più

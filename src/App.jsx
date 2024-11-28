@@ -7,9 +7,11 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <div className="d-flex flex-column min-vh-100">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </>
   );
 }
